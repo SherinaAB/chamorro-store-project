@@ -1,0 +1,138 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "type": "livin' the life ... in everyday wear"
+    },
+    {
+      "id": 2,
+      "type": "livin' life actively ... in tech wear"
+    },
+    {
+      "id": 3,
+      "type": "livin' life outside ... in outter wear"
+    }
+  ],
+  "clothing": [
+    {
+      "id": 1,
+      "type": "livin' the life ... in everyday wear",
+      "title": "Signature Logo short-sleeved 'T'",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 22.99,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "type": "livin' the life ... in everyday wear",
+      "title": "Signature Logo logo long-sleeved 'T'",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 45.99,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "type": "livin' the life ... in everyday wear",
+      "title": "Signature Logo asymmetrical 'T'",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 49.99,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "type": "livin' life actively ... in tech wear",
+      "title": "Signature Logo Active Wear Tech T-shirt",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 22.99,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "type": "livin' life actively ... in tech wear",
+      "title": "Signature Logo Active Wear Tech Tank-T",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 45.99,
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "type": "livin' life actively ... in tech wear",
+      "title": "Signature Logo Active Wear Tech Shorts",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 49.99,
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "type": "livin' life actively ... in tech wear",
+      "title": "Signature Logo Active Wear Tech Leggings",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 49.99,
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "type": "livin' life outside ... in outter wear",
+      "title": "Signature Logo 'T'",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 22.99,
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "type": "livin' life outside ... in outter wear",
+      "title": "Signature Logo zip-up sweater",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 45.99,
+      "categoryId": 3
+    },
+    {
+      "id": 10,
+      "type": "livin' life outside ... in outter wear",
+      "title": "Signature Logo hoodie",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "description": "Symbol of Guam, as it flies on the island's flag, indicative of the island's history, struggle, and perseverance.",
+      "inventory": 10,
+      "price": 49.99,
+      "categoryId": 3
+    }
+  ],
+  "story": [
+    {
+      "id": 11,
+      "title": "Sherina (a derivative of 'Si Serena', a mermaid from Chamoru folklore",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "story": "Sherina's Story"
+    },
+    {
+      "id": 12,
+      "title": "Jacob John",
+      "image": "https://m.media-amazon.com/images/I/A1ehn8ON9oL._CLa%7C500,468%7C912ThKvQWYL.png%7C0,0,500,468%2B0.0,0.0,500.0,468.0_AC_.png",
+      "story": "Jacob's Story"
+    },
+    {
+      "image": "https://www.anthropologie.com/",
+      "title": "test",
+      "story": "test",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align:center;
+}
+
+.welcome {
+  display: flex;
+  align-content: center
+}
+/* #root, .main-container {
+  width: 100%;
+} */
+
+.navbar {
+  background-color: rgba(255, 127, 80, 0.667);
+}
+
+nav a {
+  display: inline-block;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgba(12, 119, 83, 0.911);
+  border-bottom: 2px solid rgba(12, 119, 83, 0.911);
+  transition: 0.1s;
+  
+}
+
+nav a:active {
+  color: wheat;
+  border-bottom: 2px solid wheat;
+}
+
+nav a.active {
+  background-color: black;
+  color: white;
+}
+
+.main-container h1 {
+  text-align: center;
+  margin-top:0;
+  margin-bottom:.25em;
+  font-size: 4em;
+}
+
+.main-container img {
+  margin-top:1em;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -8,7 +8,7 @@ export default function NewStory({addNewStory}) {
         const formElement = event.target
 
         const storyData = {
-            // id: uuid(),
+            id: uuid(),
             image: formElement["image"].value,
             title: formElement["title"].value,
             story: formElement["story"].value
@@ -31,6 +31,7 @@ export default function NewStory({addNewStory}) {
             <input type="text" id="title" placeholder="Your Name"/>
             <input type="text" id="story" placeholder="Your Story"/>
             <input type="text" id="image" placeholder="Add a Photo" />
+            <input type="submit" value="New Story"/>
             <button type="submit">Share your story!</button>
 
         </form>

@@ -8,10 +8,11 @@ import Category from './components/Category';
 import NavBar from './components/NavBar';
 import CategoryPage from './components/CategoryPage';
 
+
 function App() {
   return (
   <Router>
-    <div className="main-container">
+    <div className="container">
       {/* <img src="/src/assets/JacobMaddieProposal.jpg"/> */}
       <div className="welcome">
         <h1>Welcome to Proa, Tano' Y Chamorro</h1>
@@ -25,6 +26,8 @@ function App() {
           <Route path="/category" element={<Category />}/>
           <Route path="/category/:id" element={<CategoryPage />}/>
         </Routes>
+        
+        
     </div>
   </Router>  
   )

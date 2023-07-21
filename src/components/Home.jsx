@@ -3,14 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-
-
-// import NavBar from './NavBar'
-
 export default function Home(id) {
-    // console.log("hafa adai")
     const [itemList, setItemList] = useState([])
-    // const [isPlaying,setIsPlaying] = useState(false);
     const navigate = useNavigate()
 
   useEffect(() => {
@@ -38,7 +32,7 @@ export default function Home(id) {
                 )}
         </div> */}
 
-        <h2>"Hafa Adai, todo moalik!!!"</h2>
+        <h1>"Hafa Adai, todo moalik!!!"</h1>
         <header>
             <div className='home-container'>
                 {/* <ProductList itemList={itemList}/> */}
@@ -46,7 +40,7 @@ export default function Home(id) {
                   <h1 onClick={() => navigate(`/category/${item.id}`)}>{item.type}</h1>
                 ))}
                 {/* <img src="./src/assets/Guam_T_Placeholder_.jpeg"></img> */}
-                <Link to = {`/category/`}>Shop Now</Link>
+                {/* <Link to = {`/category/`}>Shop Now</Link> */}
             </div>
          </header>
     </div>

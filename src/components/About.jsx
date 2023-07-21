@@ -19,10 +19,9 @@ function About({item}) {
         
   return (
     <div className='Bio-Container'>
-            {/* <h1>Welcome to Proa, Tåno' y Chamoru</h1> */}
             <h2>We are so glad you're here, thank you for visiting our site and sharing in our story.  </h2>
-            <h2>Proa </h2>
-            <h2>Tåno' y Chamoru </h2>
+            {/* <h2>Proa </h2>
+            <h2>Tåno' y Chamoru </h2> */}
             <ProductList itemList={itemList}/>
             <p></p>
             <p></p>

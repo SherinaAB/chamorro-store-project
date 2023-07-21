@@ -32,12 +32,13 @@ export default function Home(id) {
                 )}
         </div> */}
 
-        <h1>"Hafa Adai, todo moalik!!!"</h1>
+        {/* <h1>"Hafa Adai, todo moalik!!!"</h1> */}
         <header>
             <div className='home-container'>
+            <h1>"Hafa Adai, todo moalik!!!"</h1>
                 {/* <ProductList itemList={itemList}/> */}
                 {itemList.map(item=>(
-                  <h1 onClick={() => navigate(`/category/${item.id}`)}>{item.type}</h1>
+                  <h2 onClick={() => navigate(`/category/${item.id}`)}>{item.type}</h2>
                 ))}
                 {/* <img src="./src/assets/Guam_T_Placeholder_.jpeg"></img> */}
                 {/* <Link to = {`/category/`}>Shop Now</Link> */}

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import ProductList from './ProductList'
+// import ProductList from './ProductList'
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 
 // import NavBar from './NavBar'
@@ -9,6 +11,7 @@ export default function Home(id) {
     // console.log("hafa adai")
     const [itemList, setItemList] = useState([])
     // const [isPlaying,setIsPlaying] = useState(false);
+    const navigate = useNavigate()
 
   useEffect(() => {
     fetch(`http://localhost:3000/category/`)
@@ -38,7 +41,10 @@ export default function Home(id) {
         <h2>"Hafa Adai, todo moalik!!!"</h2>
         <header>
             <div className='home-container'>
-                <ProductList itemList={itemList}/>
+                {/* <ProductList itemList={itemList}/> */}
+                {itemList.map(item=>(
+                  <h1 onClick={() => navigate(`/category/${item.id}`)}>{item.type}</h1>
+                ))}
                 {/* <img src="./src/assets/Guam_T_Placeholder_.jpeg"></img> */}
                 <Link to = {`/category/`}>Shop Now</Link>
             </div>
